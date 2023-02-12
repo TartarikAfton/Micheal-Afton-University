@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter"sans-serif;
+    background-color: purple;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+}
+.head ul{
+    display: flex;
+    gap: 40px;
+}
+.head a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: red;
+    transition:color 0.3s ;
+}
+.head a:hover{
+    color: orange;
+    transition: all 0.3s;
+}
+.üni{
+    width: 300px;
+}
+.kayıt{
+    width: 360px;
+    padding: 20px;
+    background-color: white;
+    height: 400px;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.düğme{
+    border: 1px;
+    border-color: black;
+}
+a{
+    text-decoration: none;
+    
+}
+.isim{
+    width: 300px;
+    height: 25px;
+}
+.mail{
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+.şifre{
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+.kayıt-olma{
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+}
+.ORTAYA-ALAMIOM-AMK{
+    text-align: center;
+}
+.hesap-açma{
+    text-align: center;
+    font-size: 100px;
+}
+.battık{
+    font-size: 100px;
+    display: flex;
+} 
+
